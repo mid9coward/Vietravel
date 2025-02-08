@@ -6,7 +6,7 @@ https://vietravel.netlify.app/ is a website where visitors can get detailed info
 
 Live project: [https://vietravel.netlify.app/](https://vietravel.netlify.app/)
 
-<img src="https://media.giphy.com/media/5faLnMzjbjQ2GgrCQi/giphy.gif" width="800" height="400"/>
+<img src="https://media.giphy.com/media/5faLnMzjbjQ2GgrCQi/giphy.gif" width="600" height="400"/>
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
