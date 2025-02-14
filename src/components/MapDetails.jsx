@@ -1,4 +1,5 @@
 import React, { useState, useRef } from "react";
+import { Link } from "react-router-dom";
 
 const MapsDetail = () => {
   const [tooltip, setTooltip] = useState(null);
@@ -34,7 +35,7 @@ const MapsDetail = () => {
       top: "13.6%",
       left: "40%",
       width: "5.3%",
-      link: "/places/Hanoi",
+      link: "Hanoi",
     },
     {
       id: "1456",
@@ -44,7 +45,7 @@ const MapsDetail = () => {
       top: "82%",
       left: "47.3%",
       width: "4.4%",
-      link: "/places/Saigon",
+      link: "Saigon",
     },
     {
       id: "1469",
@@ -54,7 +55,7 @@ const MapsDetail = () => {
       top: "86.6%",
       left: "28.2%",
       width: "1.8%",
-      link: "/places/PhuQuoc",
+      link: "PhuQuoc",
     },
     {
       id: "1463",
@@ -64,7 +65,7 @@ const MapsDetail = () => {
       top: "48.6%",
       left: "54.8%",
       width: "10.9%",
-      link: "/places/Danang",
+      link: "Danang",
     },
     {
       id: "1466",
@@ -74,7 +75,7 @@ const MapsDetail = () => {
       top: "3.8%",
       left: "27%",
       width: "7.7%",
-      link: "/places/Sapa",
+      link: "Sapa",
     },
   ];
 
@@ -99,10 +100,10 @@ const MapsDetail = () => {
           />
 
           {provinces.map((province) => (
-            <a
+            <Link
               key={province.id}
               className="absolute maps-ab"
-              href={province.link}
+              to={`/places/${province.link}`}
               style={{
                 top: province.top,
                 left: province.left,
@@ -116,7 +117,7 @@ const MapsDetail = () => {
                 src={`/assets/images/${province.img}`}
                 alt={province.name}
               />
-            </a>
+            </Link>
           ))}
         </div>
       </div>
@@ -134,12 +135,12 @@ const MapsDetail = () => {
         >
           <h2 className="font-bold text-lg text-orange-600">{tooltip.name}</h2>
           <p className="text-gray-700 text-sm">{tooltip.desc}</p>
-          <a
+          <Link
             className="mt-2 block text-center px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition"
-            href={tooltip.link}
+            to={`/places/${tooltip.link}`}
           >
             More info
-          </a>
+          </Link>
         </div>
       )}
     </section>
