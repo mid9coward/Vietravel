@@ -94,7 +94,7 @@ const MapsDetail = () => {
         <div className="relative" ref={containerRef}>
           <img
             className="w-full"
-            src="/assets/images/vnlccactinh(2).png"
+            src="/assets/images/vnlccactinh(3).png"
             alt="Vietnam Map"
           />
 
