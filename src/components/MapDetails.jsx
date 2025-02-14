@@ -32,8 +32,8 @@ const MapsDetail = () => {
       desc: "Hanoi, the capital of Vietnam, is a city rich in history and culture...",
       img: "hanoi(1).png",
       top: "13.6%",
-      left: "55%",
-      width: "7.3%",
+      left: "40%",
+      width: "5.3%",
       link: "/places/Hanoi",
     },
     {
@@ -41,9 +41,9 @@ const MapsDetail = () => {
       name: "Ho Chi Minh",
       desc: "Ho Chi Minh City, formerly known as Saigon, is the largest city in Vietnam...",
       img: "HCM(1).png",
-      top: "81.9%",
-      left: "65%",
-      width: "6.4%",
+      top: "82%",
+      left: "47.3%",
+      width: "4.4%",
       link: "/places/Saigon",
     },
     {
@@ -52,8 +52,8 @@ const MapsDetail = () => {
       desc: "Kien Giang Province, located in the Mekong Delta region of southern Vietnam, is known for fishing and rice farming...",
       img: "kiengiang(1).png",
       top: "86.6%",
-      left: "38.7%",
-      width: "2.5%",
+      left: "28.2%",
+      width: "1.8%",
       link: "/places/PhuQuoc",
     },
     {
@@ -62,8 +62,8 @@ const MapsDetail = () => {
       desc: "Quang Nam is a province in central Vietnam, known for its rich history and cultural heritage...",
       img: "Quangnam(1).png",
       top: "48.6%",
-      left: "75.7%",
-      width: "14.9%",
+      left: "54.8%",
+      width: "10.9%",
       link: "/places/Danang",
     },
     {
@@ -71,15 +71,15 @@ const MapsDetail = () => {
       name: "Lao Cai",
       desc: "Lao Cai is a mountainous province in northern Vietnam, bordering China...",
       img: "laocai(1).png",
-      top: "3.7%",
-      left: "37%",
-      width: "11%",
+      top: "3.8%",
+      left: "27%",
+      width: "7.7%",
       link: "/places/Sapa",
     },
   ];
 
   return (
-    <section id="maps-detail" className="py-10 relative">
+    <section id="maps-detail" className="py-10 relative ">
       <div className="text-center mb-6">
         <h2 className="text-2xl font-bold">
           Discover and write your own story...
