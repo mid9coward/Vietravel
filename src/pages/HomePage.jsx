@@ -14,11 +14,13 @@ import {
   Contact,
   Galleries,
 } from "../components";
+import MapsDetail from "../components/MapDetails";
 
 const HomePage = () => {
   return (
     <>
       <Hero />
+      <MapsDetail />
       <About />
       <Services />
       <FeaturedTours />
