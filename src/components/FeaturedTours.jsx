@@ -1,4 +1,3 @@
-import React from "react";
 import Tours from "./Tours";
 import { SectionTitle } from "../components";
 import { tours } from "../data";
