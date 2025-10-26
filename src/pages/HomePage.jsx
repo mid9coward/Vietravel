@@ -1,4 +1,3 @@
-import React from "react";
 import {
   About,
   FeaturedTours,
@@ -15,6 +14,7 @@ import {
   Galleries,
 } from "../components";
 import MapsDetail from "../components/MapDetails";
+import Chatbot from "../components/Chatbot";
 
 const HomePage = () => {
   return (
@@ -33,6 +33,7 @@ const HomePage = () => {
       <WhyUs />
       <Contact />
       <Galleries />
+      <Chatbot />
     </>
   );
 };
