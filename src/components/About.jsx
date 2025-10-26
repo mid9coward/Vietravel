@@ -1,5 +1,4 @@
-import React from "react";
-import logo from "../assets/reverie-logo.png";
+import logo from "../assets/Gemini_Generated_Image_9glvfc9glvfc9glv.png";
 import { SectionTitle } from "../components";
 
 const About = () => {
